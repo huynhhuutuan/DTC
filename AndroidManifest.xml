@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="26" android:versionName="2.0.1" package="com.delhi.metro.dtc" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:glEsVersion="20000" android:required="true" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <permission android:name="com.delhi.metro.dtc.permission.C2D_MESSAGE" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="com.delhi.metro.dtc.permission.C2D_MESSAGE" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:allowBackup="true">
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <activity android:theme="@style/MyMaterialTheme" android:name="com.delhi.metro.dtc.Mainactivity_new" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.delhi.metro.dtc.MetroImageMap" />
+        <activity android:name="com.delhi.metro.dtc.FareDoor" />
+        <activity android:name="com.delhi.metro.dtc.MetroInfo" />
+        <activity android:name="com.delhi.metro.dtc.AutoFare" />
+        <activity android:name="com.delhi.bus.BusRoot" />
+        <activity android:name="com.delhi.bus.BusAdapter" />
+        <activity android:name="com.delhi.metro.dtc.FareShow" />
+        <activity android:name="com.delhi.metro.dtc.MetroInfoDetails" />
+        <activity android:name="com.delhi.metro.dtc.ShowContact" />
+        <activity android:name="com.delhi.metro.dtc.Gates_Platform_Activity" />
+        <activity android:name="com.delhi.metro.dtc.Parking" />
+        <activity android:name="com.delhi.metro.dtc.MetroBus" />
+        <activity android:name="com.delhi.metro.dtc.TrainTiming" />
+        <activity android:name="com.delhi.metro.dtc.HelpActivity" />
+        <activity android:name="com.delhi.metro.dtc.Isbt" />
+        <activity android:name="com.delhi.metro.dtc.Railway" />
+        <activity android:name="com.delhi.metro.dtc.Recharge" />
+        <activity android:name="com.delhi.metro.dtc.NearestBus" />
+        <activity android:theme="@style/appcompactheme" android:name="com.delhi.metro.dtc.ShowMetroBusMap" />
+        <activity android:theme="@style/appcompactheme" android:name="com.delhi.metro.dtc.ShowAddress" />
+        <activity android:name="com.delhi.metro.dtc.Nearest" />
+        <activity android:theme="@style/AppThemeNews" android:name="com.delhi.notification.ShowNotification" />
+        <activity android:theme="@style/MyMaterialTheme" android:name="com.delhi.notification.NewsDetailScreen" />
+        <activity android:theme="@style/MyMaterialTheme" android:name="com.delhi.notification.NotificationSetting" />
+        <service android:name="com.delhi.metro.dtc.FCmMessaging">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.delhi.metro.dtc.FcmInstance">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyA4F0hSChSDxoHmCSWpHhhhdBQ8iQ3vWcM" />
+        <meta-data android:name="io.fabric.ApiKey" android:value="d407c862bf9f5f0f55b4f4a343d1b8f02b5b22c7" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:theme="@style/Theme.IAPTheme" android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" />
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false" />
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false" />
+        <service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" />
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.delhi.metro.dtc" />
+            </intent-filter>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" android:exported="false" />
+        <service android:name="com.google.firebase.iid.FirebaseInstanceIdService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.delhi.metro.dtc.firebaseinitprovider" android:initOrder="100" />
+    </application>
+</manifest>

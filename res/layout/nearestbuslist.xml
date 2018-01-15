@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:textSize="18dp" android:textStyle="bold" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btnViewStnName" android:background="@drawable/ic_bg_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Platforms" android:layout_alignParentLeft="true" />
+    <Button android:id="@+id/btn_map" android:background="@drawable/google_maps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textSize="18dp" android:textStyle="bold" android:id="@+id/textViewDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="Distane" android:layout_below="@+id/btnViewStnName" android:layout_alignParentLeft="true" />
+</RelativeLayout>

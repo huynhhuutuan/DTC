@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" ads:orientation="vertical" ads:layout_width="match_parent" ads:layout_height="wrap_content">
+    <com.google.android.gms.ads.AdView ads:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" ads:id="@+id/adView" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_alignParentLeft="true" ads:layout_alignParentBottom="true" ads:layout_alignParentStart="true" ads:adSize="SMART_BANNER" ads:adUnitId="@string/banner_ad_unit_autofare" />
+    <LinearLayout ads:orientation="vertical" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:weightSum="1.0" ads:layout_above="@+id/adView"
+        <LinearLayout ads:id="@+id/tableRow1" ads:layout_width="match_parent" ads:layout_height="wrap_content">
+            <TextView ads:textSize="16sp" ads:textStyle="bold" ads:textColor="#000000" ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/TextView04" ads:padding="10dp" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:text="Distance
+(KM)" ads:layout_weight="1.0" />
+            <View ads:layout_width="UNKNOWN_DATA_0x701" ads:layout_height="match_parent" />
+            <View ads:background="@color/textmetroinfo" ads:layout_width="UNKNOWN_DATA_0x301" ads:layout_height="match_parent" />
+            <View ads:background="@color/textmetroinfo" ads:layout_width="UNKNOWN_DATA_0x301" ads:layout_height="match_parent" />
+            <TextView ads:textSize="16sp" ads:textStyle="bold" ads:textColor="#000000" ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/TextView04" ads:padding="10dp" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:text="Normal
+Fare" ads:layout_weight="1.0" />
+            <View ads:layout_width="UNKNOWN_DATA_0x601" ads:layout_height="match_parent" />
+            <View ads:background="@color/textmetroinfo" ads:layout_width="UNKNOWN_DATA_0x301" ads:layout_height="match_parent" />
+            <View ads:background="@color/textmetroinfo" ads:layout_width="UNKNOWN_DATA_0x301" ads:layout_height="match_parent" />
+            <TextView ads:textSize="16sp" ads:textStyle="bold" ads:textColor="#000000" ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/TextView04" ads:padding="10dp" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:text="Fare
+11pm-5am" ads:layout_weight="1.0" />
+        </LinearLayout>
+        <View ads:id="@+id/viewh" ads:background="@color/textmetroinfo" ads:layout_width="match_parent" ads:layout_height="UNKNOWN_DATA_0x601" ads:layout_below="@+id/tableRow1" />
+        <ListView ads:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/listViewap" ads:visibility="gone" ads:layout_width="match_parent" ads:layout_height="match_parent" ads:listSelector="0x106000d" ads:cacheColorHint="0x106000d" ads:divider="@color/textmetroinfo" ads:dividerHeight="1dp" />
+    </LinearLayout>
+</RelativeLayout>

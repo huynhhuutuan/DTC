@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" ads:orientation="vertical" ads:layout_width="match_parent" ads:layout_height="match_parent">
+    <TextView ads:textSize="20sp" ads:textStyle="bold" ads:textColor="@color/textb" ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/titlebox" ads:layout_width="match_parent" ads:layout_height="wrap_content" />
+    <View ads:layout_width="match_parent" ads:layout_height="UNKNOWN_DATA_0xf01" />
+    <com.google.android.gms.ads.AdView ads:gravity="top|bottom|center_vertical|fill_vertical|center|fill" ads:id="@+id/adView" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_alignParentLeft="true" ads:layout_alignParentBottom="true" ads:layout_alignParentStart="true" ads:adSize="SMART_BANNER" ads:adUnitId="@string/banner_ad_unit_stationcontact" />
+    <ListView ads:id="@+id/contacno" ads:visibility="gone" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="10sp" ads:layout_marginRight="10sp" ads:divider="0x0" ads:layout_above="@+id/adView" ads:layout_below="@+id/titlebox" />
+</RelativeLayout>

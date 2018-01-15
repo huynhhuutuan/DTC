@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/nearestmetrobus" android:background="@drawable/button_shape" android:paddingLeft="3dp" android:paddingRight="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="57dp" android:text="Nearest Metro / Bus" android:shadowRadius="2.0" android:layout_below="@+id/textView" android:layout_centerHorizontal="true" />
+    <Button android:id="@+id/searchaddress" android:background="@drawable/button_shape" android:paddingLeft="3dp" android:paddingRight="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="Search Address" android:layout_below="@+id/nearestmetrobus" android:layout_alignLeft="@+id/nearestmetrobus" android:layout_alignRight="@+id/nearestmetrobus" />
+    <TextView android:textSize="18dp" android:id="@+id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/nearest_stops_text" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</RelativeLayout>

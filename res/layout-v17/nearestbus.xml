@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" ads:orientation="vertical" ads:layout_width="match_parent" ads:layout_height="match_parent">
+    <com.google.android.gms.ads.AdView ads:gravity="top|bottom|center_vertical|fill_vertical|center|fill" ads:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" ads:id="@+id/adView" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_alignParentLeft="true" ads:layout_alignParentBottom="true" ads:layout_alignParentStart="true" ads:adSize="SMART_BANNER" ads:adUnitId="@string/banner_ad_unit_nearestmetrobus" />
+    <ListView ads:id="@+id/listviewNearestBus" ads:visibility="gone" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_above="@+id/adView" ads:layout_alignParentTop="true" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0">
+    <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bike" android:layout_weight="0.1" />
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/text6hr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6" android:layout_weight="0.22" />
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/text12hr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6" android:layout_weight="0.22" />
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/text24hr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6" android:layout_weight="0.22" />
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/textmonth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6 " android:layout_weight="0.22" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" ads:orientation="vertical" ads:layout_width="match_parent" ads:layout_height="match_parent">
+    <TextView ads:textSize="20sp" ads:textStyle="bold" ads:textColor="@color/textb" ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/titleTiming" ads:layout_width="match_parent" ads:layout_height="wrap_content" />
+    <View ads:id="@+id/view" ads:layout_width="match_parent" ads:layout_height="UNKNOWN_DATA_0x501" ads:layout_below="@+id/titleTiming" />
+    <LinearLayout ads:orientation="vertical" ads:id="@+id/layoutFirstTrain" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:layout_marginRight="20dp" ads:layout_marginBottom="5dp" ads:layout_below="@+id/view">
+        <TextView ads:textSize="20dp" ads:textStyle="bold" ads:id="@+id/textViewFirstTrain" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:text="First Train Towards" />
+        <ListView ads:id="@+id/listviewFirstTrain" ads:background="@drawable/ic_bg_white" ads:clickable="false" ads:layout_width="match_parent" ads:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout ads:orientation="vertical" ads:id="@+id/layoutLastTrain" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:layout_marginRight="20dp" ads:layout_below="@+id/layoutFirstTrain">
+        <TextView ads:textSize="20dp" ads:textStyle="bold" ads:id="@+id/textViewLastTrain" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:text="Last Train Towards" />
+        <ListView ads:id="@+id/listViewLastTrain" ads:background="@drawable/ic_bg_white" ads:clickable="false" ads:layout_width="match_parent" ads:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView ads:id="@+id/adView" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_alignParentBottom="true" ads:adSize="SMART_BANNER" ads:adUnitId="@string/banner_ad_unit_traintiming" />
+    <TextView ads:textSize="16sp" ads:textColor="@color/textb" ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/titleDisclaimer" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_marginBottom="5dp" ads:text="*Info Taken from DMRC Website" ads:layout_below="@+id/layoutLastTrain" />
+</RelativeLayout>

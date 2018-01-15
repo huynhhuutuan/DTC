@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/textb" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/Mertotitleb" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xa01" />
+    <ListView android:textSize="13sp" android:id="@+id/metroViewbus" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="0x106000d" android:cacheColorHint="0x106000d" android:divider="0x0" />
+</LinearLayout>

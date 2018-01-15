@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:background="@color/textmetroinfo" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0100cf" app:layout_scrollFlags="5" app:titleTextColor="0x106000b" />
+    <android.support.v7.widget.SwitchCompat app:textSize="20sp" app:id="@+id/notification_setting" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="10dp" app:layout_marginTop="20dp" app:text="Receive Notification" />
+</LinearLayout>

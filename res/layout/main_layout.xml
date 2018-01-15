@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res-auto" ads:layout_width="match_parent" ads:layout_height="match_parent">
+    <LinearLayout ads:orientation="vertical" ads:background="@color/textw" ads:layout_width="match_parent" ads:layout_height="match_parent"
+        <LinearLayout ads:orientation="horizontal" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:layout_marginTop="10dp" ads:layout_marginRight="20dp" ads:layout_weight="1.0">
+            <ImageView ads:id="@+id/imageView1" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:layout_marginRight="20dp" ads:src="@drawable/metromapborder" ads:adjustViewBounds="true" ads:layout_weight="0.5" />
+            <ImageView ads:id="@+id/imageView2" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:layout_marginRight="20dp" ads:src="@drawable/farerouteborder" ads:adjustViewBounds="true" ads:layout_weight="0.5" />
+        </LinearLayout>
+        <LinearLayout ads:orientation="horizontal" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:layout_marginTop="5dp" ads:layout_marginRight="20dp" ads:layout_weight="1.0">
+            <ImageView ads:id="@+id/imageView3" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:layout_marginRight="20dp" ads:src="@drawable/stnborder" ads:adjustViewBounds="true" ads:layout_weight="0.5" />
+            <ImageView ads:id="@+id/imageView5" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:layout_marginRight="20dp" ads:src="@drawable/metrocardborder" ads:adjustViewBounds="true" ads:layout_weight="0.5" />
+        </LinearLayout>
+        <LinearLayout ads:orientation="horizontal" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:layout_marginTop="5dp" ads:layout_marginRight="20dp" ads:layout_weight="1.0">
+            <ImageView ads:id="@+id/imageView4" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:layout_marginRight="20dp" ads:src="@drawable/dtcbusborder" ads:adjustViewBounds="true" ads:layout_weight="0.5" />
+            <ImageView ads:id="@+id/imageView6" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:layout_marginRight="20dp" ads:src="@drawable/busrouteborder" ads:adjustViewBounds="true" ads:layout_weight="0.5" />
+        </LinearLayout>
+        <LinearLayout ads:orientation="horizontal" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_weight="1.0">
+            <com.google.android.gms.ads.AdView ads:id="@+id/adView" ads:layout_width="match_parent" ads:layout_height="match_parent" ads:layout_weight="1.0" ads:adSize="SMART_BANNER" ads:adUnitId="@string/banner_ad_unit_mainactivity" />
+        </LinearLayout>
+        <LinearLayout ads:orientation="horizontal" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:layout_marginTop="5dp" ads:layout_marginRight="20dp" ads:layout_weight="1.0">
+            <ImageView ads:id="@+id/imageView8" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:layout_marginRight="20dp" ads:src="@drawable/autofareborder" ads:adjustViewBounds="true" ads:layout_weight="0.5" />
+            <ImageView ads:id="@+id/imageView7" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="20dp" ads:layout_marginRight="20dp" ads:src="@drawable/helpborder" ads:adjustViewBounds="true" ads:layout_weight="0.5" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

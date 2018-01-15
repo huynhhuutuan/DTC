@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/rate" android:id="@+id/likebutton" android:title="Rate Us" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:icon="@drawable/rate" android:id="@+id/shareButton" android:title="Share With Friends" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:icon="@drawable/rate" android:id="@+id/notification" android:title="Notification Settings" android:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

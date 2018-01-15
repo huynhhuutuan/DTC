@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" ads:orientation="vertical" ads:layout_width="match_parent" ads:layout_height="match_parent">
+    <com.google.android.gms.ads.AdView ads:gravity="top|bottom|center_vertical|fill_vertical|center|fill" ads:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" ads:id="@+id/adView" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_alignParentLeft="true" ads:layout_alignParentBottom="true" ads:layout_alignParentStart="true" ads:adSize="SMART_BANNER" ads:adUnitId="@string/banner_ad_unit_dtcbusroute" />
+    <TableLayout ads:orientation="vertical" ads:id="@+id/tablelayout" ads:background="#ffffff" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:weightSum="1.0" ads:layout_above="@+id/adView">
+        <AutoCompleteTextView ads:id="@+id/autoCompleteTextView1" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:hint="Enter Starting Stop (Ex: AIIMS)" ads:singleLine="true" ads:completionThreshold="1" ads:layout_centerHorizontal="true" />
+        <AutoCompleteTextView ads:id="@+id/autoCompleteTextView2" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:hint="Enter Destination Stop (Ex: ISBT)" ads:singleLine="true" ads:completionThreshold="1" ads:layout_below="@+id/autoCompleteTextView1" ads:layout_centerHorizontal="true" />
+        <TextView ads:textSize="20sp" ads:textColor="#ffffff" ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/textViewBusPath" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_below="@+id/autoCompleteTextView2" />
+        <LinearLayout ads:id="@+id/tableRow1" ads:layout_width="match_parent" ads:layout_height="wrap_content">
+            <TextView ads:textSize="16sp" ads:textStyle="bold" ads:textColor="#000000" ads:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/TextView01" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_marginLeft="15dp" ads:layout_weight="1.0" />
+            <View ads:id="@+id/Vbt1" ads:layout_width="UNKNOWN_DATA_0x501" ads:layout_height="match_parent" />
+            <TextView ads:textSize="16sp" ads:textStyle="bold" ads:textColor="#000000" ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/TextViewChangeAt" ads:visibility="gone" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_weight="1.0" />
+            <View ads:id="@+id/Vbt2" ads:layout_width="UNKNOWN_DATA_0x501" ads:layout_height="match_parent" />
+            <TextView ads:textSize="16sp" ads:textStyle="bold" ads:textColor="#000000" ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/TextView02" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout ads:orientation="horizontal" ads:id="@+id/linearLayoutListViews" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:weightSum="1.0" ads:layout_below="@+id/tableRow">
+            <ListView ads:textSize="18sp" ads:id="@+id/listViewbusp1" ads:background="#ffffff" ads:visibility="gone" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="5sp" ads:layout_marginTop="5sp" ads:layout_marginRight="5sp" ads:divider="0x0" ads:layout_weight="0.5" />
+            <View ads:id="@+id/Vbt2" ads:layout_width="UNKNOWN_DATA_0x301" ads:layout_height="wrap_content" />
+            <ListView ads:textSize="18sp" ads:id="@+id/listViewbusp2" ads:background="#ffffff" ads:visibility="gone" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="5sp" ads:layout_marginTop="5sp" ads:layout_marginRight="5sp" ads:divider="0x0" ads:layout_weight="0.5" />
+        </LinearLayout>
+    </TableLayout>
+</RelativeLayout>

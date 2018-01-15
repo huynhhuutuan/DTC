@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="4.0"
+    <LinearLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="16dp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/textViewBus1" android:background="@drawable/ic_bg_white" android:paddingLeft="2dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Bus 1" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="2.0">
+        <TextView android:textSize="16dp" android:textStyle="bold" android:ellipsize="marquee" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/textViewChangeat" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="15dp" android:layout_marginRight="5dp" android:text="Delhi" android:layout_weight="2.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:layout_weight="1.0">
+        <TextView android:textSize="16dp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/textViewBus2" android:background="@drawable/ic_bg_white" android:paddingLeft="2dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Bus 2" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" ads:fitsSystemWindows="true" ads:layout_width="match_parent" ads:layout_height="match_parent">
+    <RelativeLayout ads:layout_width="match_parent" ads:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar ads:id="@id/toolbar" ads:background="@color/textmetroinfo" ads:layout_width="match_parent" ads:layout_height="UNKNOWN_DATA_0x7f0100cf" ads:layout_scrollFlags="5" ads:titleTextColor="0x106000b" />
+        <com.google.android.gms.ads.AdView ads:gravity="top|bottom|center_vertical|fill_vertical|center|fill" ads:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" ads:id="@+id/adView" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_alignParentLeft="true" ads:layout_alignParentBottom="true" ads:adSize="SMART_BANNER" ads:adUnitId="@string/banner_ad_unit_newsdetail" />
+        <ScrollView ads:layout_width="match_parent" ads:layout_height="match_parent" ads:layout_above="@+id/adView" ads:layout_below="@id/toolbar">
+            <RelativeLayout ads:layout_width="match_parent" ads:layout_height="match_parent" ads:layout_marginTop="1dp">
+                <ImageView ads:id="@+id/imageView" ads:fitsSystemWindows="true" ads:layout_width="match_parent" ads:layout_height="UNKNOWN_DATA_0xfa01" ads:scaleType="fitCenter" ads:layout_alignParentTop="true" ads:layout_collapseMode="2" />
+                <TextView ads:textSize="20sp" ads:textStyle="bold" ads:textColor="0x106000c" ads:id="@+id/text_title" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="15dp" ads:text="" ads:layout_below="@+id/imageView" ads:layout_alignParentLeft="true" />
+                <TextView ads:id="@+id/text_timestamp" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="15dp" ads:layout_marginTop="10dp" ads:text="Date" ads:layout_below="@+id/text_title" ads:layout_alignParentLeft="true" />
+                <ImageView ads:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/img_share" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginRight="20dp" ads:src="@drawable/whatsapp_green_one" ads:layout_below="@+id/text_title" ads:layout_alignParentRight="true" />
+                <TextView ads:textSize="16sp" ads:id="@+id/textDesc" ads:layout_width="match_parent" ads:layout_height="match_parent" ads:layout_marginLeft="15dp" ads:layout_marginTop="5dp" ads:layout_marginRight="15dp" ads:text="" ads:layout_below="@+id/img_share" />
+                <TextView ads:id="@+id/text_source" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="15dp" ads:layout_marginTop="10dp" ads:layout_marginRight="10dp" ads:layout_marginBottom="10dp" ads:text="Source:" ads:layout_below="@+id/textDesc" ads:layout_alignParentLeft="true" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="homescreen_appcompact">res/menu/homescreen_appcompact.xml</menu>
+    <menu name="homescrn">res/menu/homescrn.xml</menu>
+    <menu name="like_button">res/menu/like_button.xml</menu>
+    <menu name="main">res/menu/main.xml</menu>
+    <menu name="searchview_menu">res/menu/searchview_menu.xml</menu>
+</resources>

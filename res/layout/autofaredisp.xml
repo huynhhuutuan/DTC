@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0">
+    <TextView android:textSize="16sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/rowTextViewKm" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2KM" android:layout_weight="0.33" />
+    <View android:background="@color/textmetroinfo" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" />
+    <TextView android:textSize="16sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/rowTextViewFare" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="12" android:layout_weight="0.33" />
+    <View android:background="@color/textmetroinfo" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" />
+    <TextView android:textSize="16sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/rowTextViewFareNight" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="120" android:layout_weight="0.33" />
+</LinearLayout>

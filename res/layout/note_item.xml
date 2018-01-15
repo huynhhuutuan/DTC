@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <LinearLayout app:orientation="vertical" app:background="?unknown_attr_ref: 101030e" app:padding="@dimen/activity_horizontal_margin" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Title" app:id="@+id/note_title" app:layout_width="match_parent" app:layout_height="wrap_content" />
+        <ImageView app:id="@+id/img_url" app:layout_width="UNKNOWN_DATA_0x15e01" app:layout_height="UNKNOWN_DATA_0xc801" app:layout_marginTop="5dp" app:src="@drawable/place_holder" />
+        <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Caption" app:id="@+id/news_date" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="8dp" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

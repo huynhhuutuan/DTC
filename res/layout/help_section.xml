@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" ads:orientation="vertical" ads:layout_width="match_parent" ads:layout_height="match_parent">
+    <ListView ads:id="@+id/listViewHelp" ads:background="@drawable/ic_bg_white" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_marginLeft="5dp" ads:layout_marginRight="5dp" />
+    <com.google.android.gms.ads.AdView ads:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/adView" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_alignParentLeft="true" ads:layout_alignParentBottom="true" ads:adSize="SMART_BANNER" ads:adUnitId="@string/banner_ad_unit_help" />
+</RelativeLayout>

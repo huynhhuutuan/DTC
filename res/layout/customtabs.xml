@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/textmetroinfo" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="News Feed" />
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingRight="25dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="0x106000b" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/circleshape" android:padding="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New" />
+    </RelativeLayout>
+</FrameLayout>

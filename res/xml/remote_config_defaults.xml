@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap xmlns:android="http://schemas.android.com/apk/res/android">
+    <entry>
+        <key
+            rating_pop_up_enabled />
+        <value
+            true />
+    </entry>
+    <entry>
+        <key
+            app_version />
+        <value
+            16 />
+    </entry>
+    <entry>
+        <key
+            no_of_day_rating_popup />
+        <value
+            2 />
+    </entry>
+    <entry>
+        <key
+            whats_new_text />
+        <value
+            New Metro Station added \n Red Fort \n Jama Masjid \n Delhi Gate \nPlease view the Latest Map />
+    </entry>
+</defaultsMap>

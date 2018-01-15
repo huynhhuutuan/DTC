@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:weightSum="1.0">
+    <TextView android:textSize="16dp" android:textColor="0x106000c" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/textviewtowards" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="Dilshad Garden" android:layout_weight="0.5" />
+    <TextView android:textSize="16dp" android:textColor="0x106000c" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/textviewtime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="11:00:05 PM" android:layout_weight="0.5" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" ads:orientation="vertical" ads:layout_width="match_parent" ads:layout_height="match_parent">
+    <TextView ads:textSize="20sp" ads:textStyle="bold" ads:textColor="@color/textb" ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/testbox" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_marginLeft="1dp" ads:layout_marginRight="1dp" />
+    <View ads:layout_width="match_parent" ads:layout_height="UNKNOWN_DATA_0x701" />
+    <LinearLayout ads:orientation="horizontal" ads:id="@+id/tableRow1" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_below="@+id/testbox">
+        <TextView ads:textSize="13sp" ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/platstart" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="5dp" />
+        <ImageView ads:id="@+id/imageline" ads:paddingTop="3dp" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_marginLeft="10dp" ads:layout_marginRight="10dp" />
+        <TextView ads:textSize="13sp" ads:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/platend" ads:layout_width="wrap_content" ads:layout_height="wrap_content" />
+    </LinearLayout>
+    <View ads:layout_width="match_parent" ads:layout_height="UNKNOWN_DATA_0xf01" />
+    <com.google.android.gms.ads.AdView ads:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@+id/adView" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_alignParentLeft="true" ads:layout_alignParentBottom="true" ads:adSize="SMART_BANNER" ads:adUnitId="@string/banner_ad_unit_metrostninfo" />
+    <ListView ads:id="@+id/metroInfodetail" ads:visibility="gone" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:listSelector="0x106000d" ads:cacheColorHint="0x106000d" ads:divider="0x0" ads:layout_below="@+id/tableRow1" />
+</RelativeLayout>
